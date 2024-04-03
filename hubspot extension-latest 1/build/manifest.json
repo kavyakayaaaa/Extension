@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Geneys WebRTC Softphone",
+  "short_name": "Genesys WebRTC",
+  "description": "Genesys WebRTC Extension",
+  "background": { "service_worker": "sw.js" },
+  "version": "3.0",
+  "action": {
+    "default_title": "Genesys WebRTC Extension"
+   
+  },
+ 
+  "default_icon": {
+    "16": "genesys_icon.png"
+  },
+  "permissions": ["storage","activeTab"]
+}

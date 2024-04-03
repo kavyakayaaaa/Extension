@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "Gene",
+  "short_name": "Genesys WebRTC",
+  "description": "A Custom Extension developed for integrating Genesys Cloud with Hubspot CRM",
+  "background": { "service_worker": "sw.js" },
+  "version": "3.0",
+  "action": {
+    "default_title": "Genesys WebRTC Extension",
+    "default_icon": {
+      "16": "images/genesys_icon.png"
+    }
+  },
+  "permissions": ["storage","activeTab"]
+  
+}
